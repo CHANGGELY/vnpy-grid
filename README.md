@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="vnpy-grid logo" width="120" />
+  <picture>
+    <source srcset="assets/logo.svg" type="image/svg+xml" />
+    <img src="https://raw.githubusercontent.com/CHANGGELY/vnpy-grid/main/assets/logo.svg" alt="vnpy-grid logo" width="120" />
+  </picture>
+  
 </p>
 
 # vnpy-grid — 明星级开源量化网格与回测补丁集 | A star-quality grid toolkit for VN.PY
@@ -9,9 +13,10 @@
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-black)
-![CI](https://img.shields.io/github/actions/workflow/status/REPO_OWNER/vnpy-grid/ci.yml?branch=main)
+![CI](https://img.shields.io/github/actions/workflow/status/CHANGGELY/vnpy-grid/ci.yml?branch=main)
 ![PyPI](https://img.shields.io/pypi/v/vnpy-grid?label=PyPI)
-![Codecov](https://img.shields.io/codecov/c/github/REPO_OWNER/vnpy-grid?label=coverage)
+![Codecov](https://img.shields.io/codecov/c/github/CHANGGELY/vnpy-grid?label=coverage)
+![Stars](https://img.shields.io/github/stars/CHANGGELY/vnpy-grid?style=social)
 
 ## 为什么值得使用 | Why it matters
 
