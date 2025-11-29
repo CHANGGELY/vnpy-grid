@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#00d4ff"/>
-      <stop offset="1" stop-color="#7a00ff"/>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#7a00ff" />
     </linearGradient>
   </defs>
   <rect width="240" height="240" rx="24" fill="#0c0f16"/>
   <g transform="translate(20,20)">
-    <path d="M0 160 C40 120 80 120 120 160" fill="none" stroke="url(#g)" stroke-width="6"/>
+    <path d="M0 160 C40 120 80 120 120 160" fill="none" stroke="url(#grad1)" stroke-width="6"/>
     <path d="M20 140 C60 100 100 100 140 140" fill="none" stroke="#34d399" stroke-width="6"/>
     <circle cx="60" cy="120" r="6" fill="#fff"/>
     <circle cx="100" cy="140" r="6" fill="#fff"/>
-    <text x="0" y="40" fill="#ffffff" font-size="28" font-family="SF Pro Text, Segoe UI, Arial" font-weight="700">vnpy-grid</text>
-    <text x="0" y="68" fill="#94a3b8" font-size="14" font-family="SF Pro Text, Segoe UI, Arial">Streaming Backtest & Grid Strategy</text>
+    <text x="0" y="40" fill="#ffffff" font-size="28" font-family="Arial, sans-serif" font-weight="bold">vnpy-grid</text>
+    <text x="0" y="68" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif">Streaming Backtest</text>
   </g>
 </svg>
