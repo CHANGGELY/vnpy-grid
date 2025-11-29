@@ -1,0 +1,13 @@
+.venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+*.log
+*.h5
+backtest_outputs*/
+backtest_outputs_ethusdt_h5/
+backtest_outputs_dhrg*/
+backtest_outputs_dhrg_stream*/
+backtest_outputs_dhrg_synth*/
+ETHUSDT_*.h5
+.DS_Store

@@ -1,0 +1,27 @@
+name: Bug 报告
+description: 报告一个可复现的缺陷
+title: "[Bug] 简要描述"
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么、预期行为是什么
+      placeholder: 清晰描述。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 提供最小可复现脚本或步骤
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境信息
+      description: OS、Python、vnpy 版本等
+    validations:
+      required: true

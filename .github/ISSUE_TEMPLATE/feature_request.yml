@@ -1,0 +1,24 @@
+name: 功能请求
+description: 提出一个改进或新功能
+title: "[Feature] 简要描述"
+labels: [enhancement]
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 动机与价值
+      description: 为什么需要这个功能
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 方案草案
+      description: API、数据流或交互设计
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险与兼容性
+      description: 可能的影响与迁移策略
