@@ -1,9 +1,5 @@
 <p align="center">
-  <picture>
-    <source srcset="assets/logo.svg" type="image/svg+xml" />
-    <img src="https://raw.githubusercontent.com/CHANGGELY/vnpy-grid/main/assets/logo.svg" alt="vnpy-grid logo" width="120" />
-  </picture>
-  
+  <img src="assets/logo.svg" alt="vnpy-grid logo" width="120" />
 </p>
 
 # vnpy-grid — 明星级开源量化网格与回测补丁集 | A star-quality grid toolkit for VN.PY
